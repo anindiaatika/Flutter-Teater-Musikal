@@ -1,0 +1,33 @@
+name: teatermusik
+description: A Flutter project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.3  # Tambahkan ini untuk mendukung CachedNetworkImage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  photo_view: ^0.14.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/  # Menambahkan folder images untuk gambar
+
+  fonts:
+    - family: Cinzel
+      fonts:
+        - asset: fonts/Cinzel-Regular.ttf
+        - asset: fonts/Cinzel-Bold.ttf
+          weight: 700
